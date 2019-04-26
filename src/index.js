@@ -1,10 +1,5 @@
-import React from 'react';
+import React from "react";
 import ReactDOM from "react-dom";
+import ParentComponent from "./newComponents/parentComponent";
 
-import EmployeeListComponent from "./components/stateComponent";
-
-ReactDOM.render(
-    (<div>
-        <EmployeeListComponent></EmployeeListComponent>
-    </div>)
-    , document.getElementById("root"))
+ReactDOM.render( <div><ParentComponent></ParentComponent></div>, document.getElementsByTagName("div")[0]);
