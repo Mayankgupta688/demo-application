@@ -1,5 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ParentComponent from "./newComponents/parentComponent";
+import RefContainer from "./moreComponents/refContainers";
 
-ReactDOM.render( <div><ParentComponent></ParentComponent></div>, document.getElementsByTagName("div")[0]);
+ReactDOM.render((
+    <div>
+        <RefContainer></RefContainer>
+    </div>)
+, document.getElementsByTagName("div")[0]);
