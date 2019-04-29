@@ -11,12 +11,17 @@ export default class RefContainer extends React.Component {
 
     changeInput = (event) => {
         this.setState({
-            userName: event.target.value
+            userName: event.target.value,
+            otherValue: ""
         })
     }
 
     getValue = () => {
-        console.dir(this.refs.userAge.value);
+
+        this.setState({
+            otherValue: this.refs.userAge.value
+        })
+        return this.refs.userAge.value;
     }
 
     setData = () => {
@@ -29,6 +34,8 @@ export default class RefContainer extends React.Component {
                 User Name: <input type="text" value={this.state.userName} onChange={this.changeInput} /><br></br><br></br>
 
                 User Age: <input type="text" ref="userAge" />
+
+                <div>Other Value: {this.state.otherValue}</div>
 
                 <p>My User Name is: {this.state.userName}</p>
 

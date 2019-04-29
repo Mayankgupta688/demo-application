@@ -25,7 +25,6 @@ export default class RoutingComponent extends React.Component {
 
                     </BrowserRouter>
 
-
                 </div>
             </div>
         )
