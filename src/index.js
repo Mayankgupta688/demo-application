@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ContextProvidersGrandParents from "./specialComponent/contextProviders";
+import RoutingComponent from "./specialComponent/routingComponent";
 
 ReactDOM.render((
     <div>
-        <ContextProvidersGrandParents></ContextProvidersGrandParents>
+        <RoutingComponent></RoutingComponent>
     </div>)
 , document.getElementsByTagName("div")[0]);
