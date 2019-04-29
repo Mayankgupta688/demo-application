@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ComponentWillRecieveProps from "./specialComponent/componentWillRecieveProps";
+import ContextProvidersGrandParents from "./specialComponent/contextProviders";
 
 ReactDOM.render((
     <div>
-        <ComponentWillRecieveProps></ComponentWillRecieveProps>
+        <ContextProvidersGrandParents></ContextProvidersGrandParents>
     </div>)
 , document.getElementsByTagName("div")[0]);
