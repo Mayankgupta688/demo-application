@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import RefContainer from "./moreComponents/refContainers";
+import LifeCycleComponents from "./moreComponents/lifeCycleComponents";
 
 ReactDOM.render((
     <div>
-        <RefContainer></RefContainer>
+        <LifeCycleComponents></LifeCycleComponents>
     </div>)
 , document.getElementsByTagName("div")[0]);
