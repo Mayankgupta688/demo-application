@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import LifeCycleComponents from "./moreComponents/lifeCycleComponents";
+import ComponentWillRecieveProps from "./specialComponent/componentWillRecieveProps";
 
 ReactDOM.render((
     <div>
-        <LifeCycleComponents></LifeCycleComponents>
+        <ComponentWillRecieveProps></ComponentWillRecieveProps>
     </div>)
 , document.getElementsByTagName("div")[0]);
